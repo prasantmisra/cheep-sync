@@ -1,0 +1,5 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+PATH := $(PATH):C:\Renesas\E2_STU~1\GNURL7~1.02-\rl78-ELF\bin;C:\Renesas\E2_STU~1\GNURL7~1.02-\rl78-ELF\libexec\gcc\rl78-elf\4.8-GNURL78_v13.02
