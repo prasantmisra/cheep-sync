@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="7.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -9881,8 +9881,8 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 </libraries>
 <attributes>
 <attribute name="CNAME" value="NRF24l01+ based Beacon Board"/>
-<attribute name="CREVISION" value="REV2.5f"/>
-<attribute name="DESIGNER" value="RBCCPS"/>
+<attribute name="CREVISION" value="REV2.4"/>
+<attribute name="DESIGNER" value="Gurinder, Prithvi"/>
 </attributes>
 <variantdefs>
 </variantdefs>
@@ -9987,7 +9987,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <text x="-149.86" y="10.16" size="2.54" layer="97">nRF24L01+ Connector</text>
 <text x="-162.56" y="132.08" size="2.54" layer="97">Battery Connector</text>
 <text x="-119.38" y="129.54" size="2.54" layer="97">Batt Power Conn</text>
-<text x="-45.72" y="86.36" size="2.54" layer="97">Expantion Connection</text>
+<text x="-43.18" y="93.98" size="2.54" layer="97">Expantion Connection</text>
 <text x="-76.2" y="124.46" size="2.54" layer="97">RESET</text>
 <text x="-53.34" y="124.46" size="2.54" layer="97">USR BTN.</text>
 <text x="-25.4" y="124.46" size="2.54" layer="97">USR LED</text>
@@ -10015,9 +10015,9 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <wire x1="-30.48" y1="119.38" x2="-7.62" y2="119.38" width="0.1524" layer="97"/>
 <wire x1="-7.62" y1="119.38" x2="-7.62" y2="182.88" width="0.1524" layer="97"/>
 <wire x1="-7.62" y1="182.88" x2="-30.48" y2="182.88" width="0.1524" layer="97"/>
-<wire x1="-86.36" y1="116.84" x2="-86.36" y2="83.82" width="0.1524" layer="97"/>
-<wire x1="-86.36" y1="83.82" x2="-7.62" y2="83.82" width="0.1524" layer="97"/>
-<wire x1="-7.62" y1="83.82" x2="-7.62" y2="116.84" width="0.1524" layer="97"/>
+<wire x1="-86.36" y1="116.84" x2="-86.36" y2="88.9" width="0.1524" layer="97"/>
+<wire x1="-86.36" y1="88.9" x2="-7.62" y2="88.9" width="0.1524" layer="97"/>
+<wire x1="-7.62" y1="88.9" x2="-7.62" y2="116.84" width="0.1524" layer="97"/>
 <wire x1="-7.62" y1="116.84" x2="-86.36" y2="116.84" width="0.1524" layer="97"/>
 <wire x1="-172.72" y1="35.56" x2="-172.72" y2="7.62" width="0.1524" layer="97"/>
 <wire x1="-172.72" y1="7.62" x2="-101.6" y2="7.62" width="0.1524" layer="97"/>
@@ -10036,26 +10036,35 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <wire x1="-104.14" y1="121.92" x2="-160.02" y2="121.92" width="0.1524" layer="97"/>
 <wire x1="-160.02" y1="121.92" x2="-160.02" y2="40.64" width="0.1524" layer="97"/>
 <text x="-142.24" y="116.84" size="2.54" layer="97">Test Points </text>
-<text x="-96.52" y="30.48" size="1.5748" layer="150" distance="55">Copyright (c) [2015] 
+<text x="-86.36" y="25.4" size="1.3462" layer="150" distance="55">Copyright (c) [2015] 
 [Robert Bosch Centre for Cyber Physical Systems, Indian Institute of Science, Bangalore]
  
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software 
+and associated documentation files (the "Software"), to deal in the Software without restriction
+, including without limitation the rights to use, copy, modify, merge, publish, distribute,
+ sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+ 
+1. Redistributions of source code must retain the above copyright notice, this list of conditions 
+and the following disclaimer.
+2. Redistributions in binary form must reproduce the above copyright notice, this list of 
+conditions and the following disclaimer in the documentation and/or other materials provided 
+with the distribution.
+3. Neither the name of the copyright holder nor the names of its contributors may be used to
+ endorse or promote products derived from this software without specific prior written 
+permission.
  
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
  
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT 
-SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, 
-DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR 
-OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR 
-THE USE OR OTHER DEALINGS IN THE SOFTWARE.</text>
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+​</text>
 </plain>
 <instances>
 <instance part="RENASENCE" gate="G$1" x="-228.6" y="91.44"/>
