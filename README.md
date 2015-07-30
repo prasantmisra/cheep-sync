@@ -1,5 +1,4 @@
-# cheep-sync
-CCheepSync: A Time Synchronization Service for Resource Constrained Bluetooth LE Advertisers
+CheepSync: A Time Synchronization Service for Resource Constrained Bluetooth LE Advertisers
 --------------------------------------------------------------------------------------------
 
 Bluetooth Low Enegy (BLE) is a subset of the Bluetooth v4:0 stack, and is designed for low-power applications interested in knowing the state of the physical world.
