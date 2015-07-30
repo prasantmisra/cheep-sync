@@ -12,3 +12,19 @@ for overcoming uncertainties in message transmission, clock drift and other syst
 
 The current implementation of CheepSync is on custom designed nRF24Cheep beacon platforms (as broadcasters) and commercial off-the-shelf Android ported
 smartphones (as passive listeners).
+
+Configurations:
+--------------------------------------------------------------------------------------------
+Transmitter:
+
+1. Go to URL http://www.kpitgnutools.com/index.php, and register. Upon successful registration, you will receive a username and password by email.
+2. Using these credentials, download RL78 installer along with e2studio.
+3. Import ? into the e2studio IDE.
+
+Receiver:
+
+1. Install the custom android ROM for the phone.
+
+We used KitKat on Nexus 5. There are two ways to do it:
+
+
