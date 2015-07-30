@@ -28,17 +28,17 @@ Receiver:
   We used KitKat on Nexus 5. There are two ways to do it:
   
   First:--------------
-  Build the android phone according to the blog post (http://nosemaj.org/howto-build-android-kitkat-nexus-5)
-  For incremental builds:
-  source build/envsetup.sh
-  lunch
-  make updatepackage -j10
-  make snod
-  mmm /path/to/directory
-  sudo chmod -R 755 
+    Build the android phone according to the blog post (http://nosemaj.org/howto-build-android-kitkat-nexus-5)
+    For incremental builds:
+      source build/envsetup.sh
+      lunch
+      make updatepackage -j10
+      make snod
+      mmm /path/to/directory
+      sudo chmod -R 755 
   
   Second:-------------
-  Refer the cynogenmod website (http://www.cyanogenmod.org/)
+    Refer the cynogenmod website (http://www.cyanogenmod.org/)
   
 2. Root the android phone
 3. Install busybox installer for android
